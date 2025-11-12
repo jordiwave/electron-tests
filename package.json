@@ -1,0 +1,16 @@
+{
+  "name": "electron-tests",
+  "version": "1.0.0",
+  "description": "electron-tests",
+  "workspaces": [
+    "test1",
+    "test2"
+  ],
+  "devDependencies": {
+    "electron": "^39.1.2"
+  },
+  "scripts": {
+    "start:test1": "cd test1 && npm start",
+    "start:test2": "cd test2 && npm start"
+  }
+}
